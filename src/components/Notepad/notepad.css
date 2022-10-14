@@ -1,0 +1,50 @@
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.header {
+    background-color: #3d74d1;
+}
+.editer-container {
+    width: 100%;
+}
+.editer {
+    /* width: 30%; */
+    min-width: 450px;
+    box-shadow: 7px 7px 20px rgba(40, 43, 42, 0.563);
+}
+.editer input{
+    padding: 15px;
+    font-size: 26px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+.addbtn {
+    font-weight: 900;
+    font-size: 30px;
+}
+textarea {
+    padding: 15px;
+    border: none;
+    outline: none;
+}
+.grid-container {
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+  }  
+.grid-item {
+    max-width: 300px;
+  }
+.box {
+    box-shadow: 3px 3px 10px rgba(40, 43, 42, 0.563);
+    border-radius: 4px;
+}
+.content {
+    max-height: 200px;
+    overflow: auto;
+}

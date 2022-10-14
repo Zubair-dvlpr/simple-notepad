@@ -1,0 +1,10 @@
+body {
+    background-color:ghostwhite;
+    display: block;
+}
+.container {
+    background-color: transparent;
+    height: unset;
+    width: unset;
+    border-radius: unset;
+}
